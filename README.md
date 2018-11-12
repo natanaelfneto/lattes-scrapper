@@ -2,7 +2,7 @@
 
 Version: **0.0.1**
 
-Scrapper server to make a data vizualization for lattes users network and aldo transform the platform users profiles into JSON oriented objects thought an API.
+Scrapper server to make a data visualization for lattes users network and also transform the platform users profiles into JSON oriented objects thought an API.
 
 #### Dependencies:
 
