@@ -1,6 +1,6 @@
 {
     "name": "lattes_social_network_visualization",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "author": "",
     "description": "",
     "main": "index.js",
@@ -19,10 +19,8 @@
         "axios": "^0.18.0",
         "babel-loader": "^7.1.5",
         "cors": "^2.8.5",
-        "csvtojson": "^2.0.8",
         "express": "^4.16.4",
         "marked": "^0.5.1",
-        "node-excel-to-json": "0.0.3",
         "puppeteer": "^1.10.0",
         "vue": "^2.5.11",
         "vue-router": "^3.0.1",

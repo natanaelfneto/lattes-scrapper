@@ -19,7 +19,7 @@ export default (api, cors, apps) => {
     // });
     
     // get lattes user id route
-    api.get('/:lattesID', cors, (req, res, next) => {
+    api.get('/api/getUser/:lattesID', cors, (req, res, next) => {
         apps.lattes.getUser(req.params.lattesID)
             .then(data => { 
                 res.json(data)
