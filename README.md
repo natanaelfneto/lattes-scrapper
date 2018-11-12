@@ -67,7 +67,7 @@ Future deprecations:
 npm install
 npm run start
 ```
-Access browser at: "http://localhost:5000/"
+Access browser at: "http://localhost:5000/"\
 Backend ExpressJS API-URL: "http://api/getUser/{lattesID}"
 
 | Field       |Url                              | Obrigatory    | Description                       | Response Type
