@@ -3,7 +3,6 @@ import Vue from 'vue';
 import Router from 'vue-router';
 // self imports
 import Index from '../apps/client/IndexView'
-import NotFound from '../apps/client/NotFoundView';
 
 // 
 Vue.use(Router);
@@ -22,7 +21,8 @@ const routes = [
     },
 
     { 
-        path: '*', component: NotFound, 
+        path: '*',
+        redirect: '/index',
     },    
 ]
 
