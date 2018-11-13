@@ -1,4 +1,5 @@
-import settings from '../settings';
+// import settings from '../settings';
+import path from 'path'
 
 export default (api, cors, apps) => {
 

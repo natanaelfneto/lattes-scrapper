@@ -1,4 +1,4 @@
-</template>
+<template>
     <div id="cp-content">
         <main role="main">
             <div class="row mt-5">
@@ -114,11 +114,12 @@
 </template>
 
 <script>
-    import marked from 'marked';
-    import Formatted from '../../components/Formatted'
+    import marked from 'marked'
+    import Formatted from './Formatted.vue'
 
     export default {
         components: {
+            Formatted
         },
         props: {
             data: {
@@ -132,7 +133,7 @@
                 var json_hidden = document.getElementById('json_hidden').textContent;
                 // add markdown and convert it to html
                 var pre_output = '<div class="col-1 pr-0"><b>"user"</b>:</div><div class="col pl-0">';
-                var output = marked('```JSON\n'+json_hidden+'```');
+                var output = marked('```JSON\n'+json_hidden.trim()+'```');
 
                 // create new element and set its parameters
                 var newcontent = document.createElement('div');

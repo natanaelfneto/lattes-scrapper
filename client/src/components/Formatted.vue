@@ -63,11 +63,6 @@
                 type: Object,
                 required: true
             }
-        },
-        methods: {
         }
     }
 </script>
-
-<style>
-</style>

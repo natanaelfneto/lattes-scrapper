@@ -9,7 +9,7 @@
             return { data: {
                 app: {
                     name: this.formatAppName(),
-                    base_url: 'http://localhost:5000/',
+                    base_url: 'http://localhost:5000/api/getUser/',
                     image: 'assets/img/graph.png'
                 },
                 user: {

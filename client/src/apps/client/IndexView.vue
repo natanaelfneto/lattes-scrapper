@@ -1,5 +1,5 @@
 <template>
-    <div id="app-client-index">
+    <div id="app-index">
         <Navbar :data="data"></Navbar>
         <Content :data="data"></Content>
     </div>
@@ -14,9 +14,6 @@
         components: {
             Content,
             Navbar,
-            Footer,
-            Formatted,
-            Json,
         },
         props: {
             data: {
